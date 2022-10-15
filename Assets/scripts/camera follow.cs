@@ -40,6 +40,9 @@ public class camerafollow : MonoBehaviour
             ref velocity,
             dampingTime
             );
+        }else
+        {
+            this.Transform.position = destination;
         }
     }
 }
