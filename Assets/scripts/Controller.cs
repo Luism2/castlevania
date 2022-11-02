@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Controller : MonoBehaviour{
-    
-  public float jumpForce = 3.0f;
+
+public float jumpForce = 3.0f;
   public float runningSpeed = 0.5f;
     Rigidbody2D rigidBody;
     Animator animator;
@@ -49,4 +49,4 @@ public class Controller : MonoBehaviour{
             return false; 
         }
     }
-}
+} 
